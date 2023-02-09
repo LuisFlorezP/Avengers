@@ -9,7 +9,7 @@ public class Villain {
     private Heroe heroe;
 
     public int destroy() {
-        int resultado = this.power - this.heroe.power;
+        int resultado = this.power - this.heroe.getPower();
 
         return resultado;
     }
